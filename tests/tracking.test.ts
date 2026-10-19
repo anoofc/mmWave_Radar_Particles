@@ -1,0 +1,20 @@
+import { describe,it,expect } from 'vitest';
+import { Tracker } from '../web/src/core/tracking';
+import { defaultFilters } from '../web/src/core/filtering';
+import { normalized,uptimeAge } from '../web/src/core/coordinates';
+import { packet } from './fixtures';
+const c={...defaultFilters};
+describe('interaction safety and tracking',()=>{
+  it('disables and clears interaction on serial disconnection',()=>{const t=new Tracker();t.ingest(packet(),100,c);expect(t.state(100,true,c).primary).toEqual({x:1,y:2});expect(t.state(101,false,c)).toMatchObject({primary:null,tracking:'disconnected',movementIntensity:0});expect(t.tracks.size).toBe(0);});
+  it('disables stale measurements even with fresh bridge packets',()=>{const t=new Tracker();t.ingest(packet({ts:5000}),5000,c);expect(t.state(5000,true,c)).toMatchObject({primary:null,tracking:'stale'});});
+  it('does not refresh measurement age or smooth cached targets twice',()=>{const t=new Tracker();t.ingest(packet(),100,c);t.ingest(packet({ts:500,seq:2}),500,c);expect(t.tracks.get(1)?.trail).toHaveLength(1);expect(t.state(2400,true,c).primary).toBeNull();});
+  it('distinguishes unavailable from valid zero targets',()=>{const t=new Tracker();t.ingest(packet({report:'unavailable',target_at:null,targets:[]}),100,c);expect(t.state(100,true,c).tracking).toBe('unavailable');t.ingest(packet({targets:[]}),100,c);expect(t.state(100,true,c).tracking).toBe('empty');});
+  it('holds an empty report briefly and expires the target',()=>{const t=new Tracker();t.ingest(packet(),100,c);t.ingest(packet({ts:200,target_at:200,targets:[]}),200,c);expect(t.state(200,true,c).tracking).toBe('holding');expect(t.state(900,true,c).primary).toBeNull();});
+  it('immediately clears held targets on explicit absence',()=>{const t=new Tracker();t.ingest(packet(),100,c);t.ingest(packet({ts:200,presence_at:200,presence:false,targets:[]}),200,c);expect(t.state(200,true,c)).toMatchObject({presence:false,primary:null,tracking:'empty'});});
+  it('switches cluster without smoothing from the previous target',()=>{const t=new Tracker();t.ingest(packet(),100,c);t.ingest(packet({ts:200,target_at:200,targets:[{x:-2,y:3,doppler:0,cluster:2}]}),200,c);expect(t.state(200,true,c).primary).toEqual({x:-2,y:3});expect(t.state(200,true,c).velocity).toEqual({x:0,y:0});});
+  it('keeps a sticky primary and allows nearest selection',()=>{const t=new Tracker();t.ingest(packet(),100,c);const p=packet({ts:200,target_at:200,targets:[packet().targets[0],{x:.1,y:.1,doppler:0,cluster:2}]});t.ingest(p,200,c);expect(t.primary).toBe(1);t.ingest({...p,ts:300,target_at:300},300,{...c,primary:'nearest'});expect(t.primary).toBe(2);});
+  it('filters duplicates but keeps raw data intact',()=>{const t=new Tracker(),p=packet({targets:[packet().targets[0],{x:1.01,y:2,doppler:0,cluster:2}]});t.ingest(p,100,c);expect(t.duplicates).toBe(1);expect(t.tracks.size).toBe(1);expect(p.targets).toHaveLength(2);});
+  it('smooths positions, honors dead zone, and calculates velocity',()=>{const t=new Tracker();t.ingest(packet(),100,c);t.ingest(packet({ts:200,target_at:200,targets:[{x:2,y:2,doppler:0,cluster:1}]}),200,c);expect(t.state(200,true,c).primary?.x).toBeCloseTo(1.3);expect(t.state(200,true,c).velocity.x).toBeCloseTo(3);t.ingest(packet({ts:300,target_at:300,targets:[{x:1.31,y:2,doppler:0,cluster:1}]}),300,c);expect(t.state(300,true,c).primary?.x).toBeCloseTo(1.3);});
+  it('handles device restart and uint32 rollover',()=>{expect(uptimeAge(30,0xfffffff0)).toBe(46);const t=new Tracker();t.ingest(packet({ts:5000,target_at:5000}),5000,c);t.ingest(packet({ts:10,target_at:10,targets:[{x:5,y:5,doppler:0,cluster:1}]}),5100,c);expect(t.state(5100,true,c).primary).toEqual({x:5,y:5});});
+  it('normalizes coordinates with inversion without changing raw values',()=>{const p={x:2,y:2};expect(normalized(p,{range:4,invertX:true,invertY:false})).toEqual({x:.25,y:.25});expect(p).toEqual({x:2,y:2});});
+});

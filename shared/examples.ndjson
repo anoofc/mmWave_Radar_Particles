@@ -1,0 +1,6 @@
+{"type":"status","v":1,"seq":0,"ts":10,"firmware":"1.0.0","board":"XIAO ESP32C6","sensor":"MR60BHA2","radar":"unresponsive","sensor_firmware":null,"doppler_step_cm_s":17.28,"interval_ms":100,"sensor_frames":0,"target_frames":0,"errors":0,"tx_dropped":0}
+{"type":"telemetry","v":1,"seq":1,"ts":100,"units":"m","radar":"responsive","presence":true,"presence_at":90,"report":"valid","target_at":95,"targets":[{"x":0.8,"y":2.4,"doppler":3,"cluster":1}],"distance":null,"sensor_frames":2,"target_frames":1,"errors":0}
+{"type":"telemetry","v":1,"seq":2,"ts":200,"units":"m","radar":"responsive","presence":false,"presence_at":190,"report":"valid","target_at":195,"targets":[],"distance":null,"sensor_frames":4,"target_frames":2,"errors":0}
+{"type":"telemetry","v":1,"seq":3,"ts":3000,"units":"m","radar":"unresponsive","presence":null,"presence_at":null,"report":"unavailable","target_at":null,"targets":[],"distance":null,"sensor_frames":4,"target_frames":2,"errors":0}
+{"type":"command","v":1,"id":"demo-1","command":"set_interval","interval_ms":200}
+{"type":"ack","v":1,"seq":4,"ts":3010,"id":"demo-1","ok":true,"message":"interval updated"}

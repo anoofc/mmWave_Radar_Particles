@@ -1,0 +1,2 @@
+import {defineConfig} from '@playwright/test';
+export default defineConfig({testDir:'tests/benchmarks',timeout:240000,workers:1,use:{baseURL:'http://127.0.0.1:5174',headless:true,viewport:{width:1920,height:1080}},webServer:{command:'npm run preview --workspace web -- --port 5174 --strictPort',url:'http://127.0.0.1:5174',reuseExistingServer:false},projects:[{name:'chromium',use:{browserName:'chromium'}}]});

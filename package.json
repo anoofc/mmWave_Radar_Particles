@@ -1,0 +1,22 @@
+{
+  "name": "mr60-radar-particles-phase1",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "workspaces": [
+    "web"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace web",
+    "build": "npm run build --workspace web",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:browser": "playwright test",
+    "benchmark:particles": "npm run build && playwright test --config playwright.benchmark.config.ts"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.56.0",
+    "typescript": "~5.9.3",
+    "vitest": "^5.0.5"
+  }
+}

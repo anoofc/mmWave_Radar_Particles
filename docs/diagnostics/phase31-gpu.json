@@ -1,0 +1,2064 @@
+{
+  "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+  "count": 60000,
+  "points": [
+    {
+      "name": "left",
+      "position": [
+        -3.1015422344207764,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          -3.1015422344207764,
+          -1.9942151308059692,
+          -2.497454881668091
+        ],
+        "max": [
+          3.1013541221618652,
+          1.985253930091858,
+          2.4879050254821777
+        ],
+        "radius": 3.111897765982555
+      },
+      "radius": 2.8007079893842994,
+      "before": {
+        "status": "Measured 16x16 stratified GPU sample; population coverage and bounds are estimates",
+        "sampleCount": 256,
+        "population": 60000,
+        "sampledAt": 0,
+        "finite": true,
+        "bounds": {
+          "min": [
+            -2.859386444091797,
+            -1.7794599533081055,
+            -2.389045000076294
+          ],
+          "max": [
+            2.899688243865967,
+            1.8695495128631592,
+            2.3902695178985596
+          ],
+          "radius": 2.900793228058204
+        },
+        "center": [
+          0.02015089988708496,
+          0.045044779777526855,
+          0.0006122589111328125
+        ],
+        "dimensions": [
+          5.759074687957764,
+          3.6490094661712646,
+          4.7793145179748535
+        ],
+        "sphereRadius": 2.900793228058204,
+        "inside": 92,
+        "insidePercent": 35.9375,
+        "meaningful": 256,
+        "meaningfulPercent": 100,
+        "estimatedInsideCount": 21563,
+        "estimatedMeaningfulCount": 60000,
+        "interactionAverage": 1.2537323652068153,
+        "interactionMaximum": 6.799631118774414,
+        "restorationAverage": 0.0034153115377648646,
+        "restorationMaximum": 0.02049531601369381,
+        "ratio": 367.091655137064,
+        "deformationAverage": 0.00032871055134364724,
+        "deformationMaximum": 0.001972635043784976
+      },
+      "after": {
+        "status": "Measured 16x16 stratified GPU sample; population coverage and bounds are estimates",
+        "sampleCount": 256,
+        "population": 60000,
+        "sampledAt": 1500,
+        "finite": true,
+        "bounds": {
+          "min": [
+            -1.763054609298706,
+            -1.767228603363037,
+            -2.0870659351348877
+          ],
+          "max": [
+            3.6673686504364014,
+            1.8905577659606934,
+            2.6661934852600098
+          ],
+          "radius": 3.380547515037
+        },
+        "center": [
+          0.9521570205688477,
+          0.061664581298828125,
+          0.28956377506256104
+        ],
+        "dimensions": [
+          5.430423259735107,
+          3.6577863693237305,
+          4.7532594203948975
+        ],
+        "sphereRadius": 3.380547515037,
+        "inside": 70,
+        "insidePercent": 27.34375,
+        "meaningful": 256,
+        "meaningfulPercent": 100,
+        "estimatedInsideCount": 16406,
+        "estimatedMeaningfulCount": 60000,
+        "interactionAverage": 1.2397412322461605,
+        "interactionMaximum": 1.701479434967041,
+        "restorationAverage": 0.40310836024582386,
+        "restorationMaximum": 1.1347723007202148,
+        "ratio": 3.0754540329804634,
+        "deformationAverage": 0.6845275209634565,
+        "deformationMaximum": 2.2916414737701416
+      },
+      "uniforms": {
+        "attractor": [
+          -3.1015422344207764,
+          0,
+          0
+        ],
+        "direction": [
+          1.5,
+          0,
+          0
+        ],
+        "dt": 0.016666666666666666,
+        "time": 1.5,
+        "morph": 1,
+        "flow": 0.65,
+        "turbulence": 0.22,
+        "magnetic": 1.7,
+        "repulsion": 0.7,
+        "vortex": 0.75,
+        "shape": 1.1,
+        "damping": 1.25,
+        "accelerationLimit": 14,
+        "velocityLimit": 4,
+        "boundaryRadius": 7,
+        "activity": 1,
+        "motion": 1,
+        "proximity": 0.5,
+        "pulse": 0,
+        "radius": 2.8007079893842994,
+        "dragForce": 3,
+        "attractionForce": 3,
+        "expansionForce": 3,
+        "vortexForce": 1.4,
+        "turbulenceForce": 0.8,
+        "restorationWeight": 0.4,
+        "approach": 0,
+        "pulseAge": 10,
+        "pulseForce": 2,
+        "falloffPower": 1,
+        "globalRadius": 5.4458210904694715,
+        "globalStrength": 0.35,
+        "localStrength": 1,
+        "uniformField": 0,
+        "diagnosticPass": 0,
+        "diagnosticCount": 60000,
+        "textureSide": 245,
+        "boundary": true
+      }
+    },
+    {
+      "name": "center",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          -3.1015422344207764,
+          -1.9942151308059692,
+          -2.497454881668091
+        ],
+        "max": [
+          3.1013541221618652,
+          1.985253930091858,
+          2.4879050254821777
+        ],
+        "radius": 3.111897765982555
+      },
+      "radius": 2.8007079893842994,
+      "before": {
+        "status": "Measured 16x16 stratified GPU sample; population coverage and bounds are estimates",
+        "sampleCount": 256,
+        "population": 60000,
+        "sampledAt": 0,
+        "finite": true,
+        "bounds": {
+          "min": [
+            -2.861056327819824,
+            -1.7794344425201416,
+            -2.3890750408172607
+          ],
+          "max": [
+            2.899688482284546,
+            1.8695385456085205,
+            2.3902227878570557
+          ],
+          "radius": 2.90164265946475
+        },
+        "center": [
+          0.01931607723236084,
+          0.04505205154418945,
+          0.0005738735198974609
+        ],
+        "dimensions": [
+          5.76074481010437,
+          3.648972988128662,
+          4.779297828674316
+        ],
+        "sphereRadius": 2.90164265946475,
+        "inside": 249,
+        "insidePercent": 97.265625,
+        "meaningful": 256,
+        "meaningfulPercent": 100,
+        "estimatedInsideCount": 58359,
+        "estimatedMeaningfulCount": 60000,
+        "interactionAverage": 1.5512622725218534,
+        "interactionMaximum": 4.086531162261963,
+        "restorationAverage": 0.004515883235853835,
+        "restorationMaximum": 0.01234679389744997,
+        "ratio": 343.51248504514325,
+        "deformationAverage": 0.0004346411976712261,
+        "deformationMaximum": 0.0011883506085723639
+      },
+      "after": {
+        "status": "Measured 16x16 stratified GPU sample; population coverage and bounds are estimates",
+        "sampleCount": 256,
+        "population": 60000,
+        "sampledAt": 1500,
+        "finite": true,
+        "bounds": {
+          "min": [
+            -2.496577024459839,
+            -1.706430196762085,
+            -2.2009096145629883
+          ],
+          "max": [
+            3.668499231338501,
+            1.9061776399612427,
+            2.57612943649292
+          ],
+          "radius": 3.371932751624186
+        },
+        "center": [
+          0.585961103439331,
+          0.09987372159957886,
+          0.18760991096496582
+        ],
+        "dimensions": [
+          6.16507625579834,
+          3.6126078367233276,
+          4.777039051055908
+        ],
+        "sphereRadius": 3.371932751624186,
+        "inside": 222,
+        "insidePercent": 86.71875,
+        "meaningful": 256,
+        "meaningfulPercent": 100,
+        "estimatedInsideCount": 52031,
+        "estimatedMeaningfulCount": 60000,
+        "interactionAverage": 1.5604266164591536,
+        "interactionMaximum": 3.7137484550476074,
+        "restorationAverage": 0.541023529774975,
+        "restorationMaximum": 1.2544996738433838,
+        "ratio": 2.884212110161222,
+        "deformationAverage": 0.9197143314522691,
+        "deformationMaximum": 2.26648211479187
+      },
+      "uniforms": {
+        "attractor": [
+          0,
+          0,
+          0
+        ],
+        "direction": [
+          1.5,
+          0,
+          0
+        ],
+        "dt": 0.016666666666666666,
+        "time": 1.5,
+        "morph": 1,
+        "flow": 0.65,
+        "turbulence": 0.22,
+        "magnetic": 1.7,
+        "repulsion": 0.7,
+        "vortex": 0.75,
+        "shape": 1.1,
+        "damping": 1.25,
+        "accelerationLimit": 14,
+        "velocityLimit": 4,
+        "boundaryRadius": 7,
+        "activity": 1,
+        "motion": 1,
+        "proximity": 0.5,
+        "pulse": 0,
+        "radius": 2.8007079893842994,
+        "dragForce": 3,
+        "attractionForce": 3,
+        "expansionForce": 3,
+        "vortexForce": 1.4,
+        "turbulenceForce": 0.8,
+        "restorationWeight": 0.4,
+        "approach": 0,
+        "pulseAge": 10,
+        "pulseForce": 2,
+        "falloffPower": 1,
+        "globalRadius": 5.4458210904694715,
+        "globalStrength": 0.35,
+        "localStrength": 1,
+        "uniformField": 0,
+        "diagnosticPass": 0,
+        "diagnosticCount": 60000,
+        "textureSide": 245,
+        "boundary": true
+      }
+    },
+    {
+      "name": "right",
+      "position": [
+        3.1013541221618652,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          -3.1015422344207764,
+          -1.9942151308059692,
+          -2.497454881668091
+        ],
+        "max": [
+          3.1013541221618652,
+          1.985253930091858,
+          2.4879050254821777
+        ],
+        "radius": 3.111897765982555
+      },
+      "radius": 2.8007079893842994,
+      "before": {
+        "status": "Measured 16x16 stratified GPU sample; population coverage and bounds are estimates",
+        "sampleCount": 256,
+        "population": 60000,
+        "sampledAt": 0,
+        "finite": true,
+        "bounds": {
+          "min": [
+            -2.8610587120056152,
+            -1.7794603109359741,
+            -2.389126777648926
+          ],
+          "max": [
+            2.901364326477051,
+            1.869549036026001,
+            2.3901870250701904
+          ],
+          "radius": 2.9024713169520804
+        },
+        "center": [
+          0.020152807235717773,
+          0.04504436254501343,
+          0.0005301237106323242
+        ],
+        "dimensions": [
+          5.762423038482666,
+          3.649009346961975,
+          4.779313802719116
+        ],
+        "sphereRadius": 2.9024713169520804,
+        "inside": 83,
+        "insidePercent": 32.421875,
+        "meaningful": 256,
+        "meaningfulPercent": 100,
+        "estimatedInsideCount": 19453,
+        "estimatedMeaningfulCount": 60000,
+        "interactionAverage": 1.3369903259444982,
+        "interactionMaximum": 7.579787254333496,
+        "restorationAverage": 0.003727000839489847,
+        "restorationMaximum": 0.02261391095817089,
+        "ratio": 358.7308893999353,
+        "deformationAverage": 0.0003587138995158057,
+        "deformationMaximum": 0.0021765672136098146
+      },
+      "after": {
+        "status": "Measured 16x16 stratified GPU sample; population coverage and bounds are estimates",
+        "sampleCount": 256,
+        "population": 60000,
+        "sampledAt": 1500,
+        "finite": true,
+        "bounds": {
+          "min": [
+            -2.504197597503662,
+            -1.7657793760299683,
+            -2.261683464050293
+          ],
+          "max": [
+            5.742137908935547,
+            1.8951773643493652,
+            2.4868221282958984
+          ],
+          "radius": 4.282289826948844
+        },
+        "center": [
+          1.6189701557159424,
+          0.06469899415969849,
+          0.11256933212280273
+        ],
+        "dimensions": [
+          8.246335506439209,
+          3.6609567403793335,
+          4.748505592346191
+        ],
+        "sphereRadius": 4.282289826948844,
+        "inside": 113,
+        "insidePercent": 44.140625,
+        "meaningful": 256,
+        "meaningfulPercent": 100,
+        "estimatedInsideCount": 26484,
+        "estimatedMeaningfulCount": 60000,
+        "interactionAverage": 1.5076416527153924,
+        "interactionMaximum": 7.198668479919434,
+        "restorationAverage": 0.5065815709822346,
+        "restorationMaximum": 1.797467589378357,
+        "ratio": 2.9761083684749052,
+        "deformationAverage": 0.8490455405553803,
+        "deformationMaximum": 3.2385339736938477
+      },
+      "uniforms": {
+        "attractor": [
+          3.1013541221618652,
+          0,
+          0
+        ],
+        "direction": [
+          1.5,
+          0,
+          0
+        ],
+        "dt": 0.016666666666666666,
+        "time": 1.5,
+        "morph": 1,
+        "flow": 0.65,
+        "turbulence": 0.22,
+        "magnetic": 1.7,
+        "repulsion": 0.7,
+        "vortex": 0.75,
+        "shape": 1.1,
+        "damping": 1.25,
+        "accelerationLimit": 14,
+        "velocityLimit": 4,
+        "boundaryRadius": 7,
+        "activity": 1,
+        "motion": 1,
+        "proximity": 0.5,
+        "pulse": 0,
+        "radius": 2.8007079893842994,
+        "dragForce": 3,
+        "attractionForce": 3,
+        "expansionForce": 3,
+        "vortexForce": 1.4,
+        "turbulenceForce": 0.8,
+        "restorationWeight": 0.4,
+        "approach": 0,
+        "pulseAge": 10,
+        "pulseForce": 2,
+        "falloffPower": 1,
+        "globalRadius": 5.4458210904694715,
+        "globalStrength": 0.35,
+        "localStrength": 1,
+        "uniformField": 0,
+        "diagnosticPass": 0,
+        "diagnosticCount": 60000,
+        "textureSide": 245,
+        "boundary": true
+      }
+    },
+    {
+      "name": "near",
+      "position": [
+        0,
+        0,
+        2.4879050254821777
+      ],
+      "bounds": {
+        "min": [
+          -3.1015422344207764,
+          -1.9942151308059692,
+          -2.497454881668091
+        ],
+        "max": [
+          3.1013541221618652,
+          1.985253930091858,
+          2.4879050254821777
+        ],
+        "radius": 3.111897765982555
+      },
+      "radius": 2.8007079893842994,
+      "before": {
+        "status": "Measured 16x16 stratified GPU sample; population coverage and bounds are estimates",
+        "sampleCount": 256,
+        "population": 60000,
+        "sampledAt": 0,
+        "finite": true,
+        "bounds": {
+          "min": [
+            -2.861024856567383,
+            -1.7794569730758667,
+            -2.3890833854675293
+          ],
+          "max": [
+            2.899722099304199,
+            1.869546890258789,
+            2.3900420665740967
+          ],
+          "radius": 2.9016343367414392
+        },
+        "center": [
+          0.019348621368408203,
+          0.04504495859146118,
+          0.0004793405532836914
+        ],
+        "dimensions": [
+          5.760746955871582,
+          3.6490038633346558,
+          4.779125452041626
+        ],
+        "sphereRadius": 2.9016343367414392,
+        "inside": 97,
+        "insidePercent": 37.890625,
+        "meaningful": 256,
+        "meaningfulPercent": 100,
+        "estimatedInsideCount": 22734,
+        "estimatedMeaningfulCount": 60000,
+        "interactionAverage": 1.4052094563376158,
+        "interactionMaximum": 8.023106575012207,
+        "restorationAverage": 0.004229927613778273,
+        "restorationMaximum": 0.02370673231780529,
+        "ratio": 332.2065020120874,
+        "deformationAverage": 0.00040711749721822343,
+        "deformationMaximum": 0.0022817226126790047
+      },
+      "after": {
+        "status": "Measured 16x16 stratified GPU sample; population coverage and bounds are estimates",
+        "sampleCount": 256,
+        "population": 60000,
+        "sampledAt": 1500,
+        "finite": true,
+        "bounds": {
+          "min": [
+            -2.4326987266540527,
+            -1.750427007675171,
+            -2.178960084915161
+          ],
+          "max": [
+            3.732534170150757,
+            1.8965097665786743,
+            2.8493518829345703
+          ],
+          "radius": 3.4296078039798896
+        },
+        "center": [
+          0.649917721748352,
+          0.07304137945175171,
+          0.3351958990097046
+        ],
+        "dimensions": [
+          6.16523289680481,
+          3.646936774253845,
+          5.0283119678497314
+        ],
+        "sphereRadius": 3.4296078039798896,
+        "inside": 80,
+        "insidePercent": 31.25,
+        "meaningful": 256,
+        "meaningfulPercent": 100,
+        "estimatedInsideCount": 18750,
+        "estimatedMeaningfulCount": 60000,
+        "interactionAverage": 1.3215705438051373,
+        "interactionMaximum": 6.1403727531433105,
+        "restorationAverage": 0.5048213317641057,
+        "restorationMaximum": 1.911561369895935,
+        "ratio": 2.617897582075007,
+        "deformationAverage": 0.8618705777334981,
+        "deformationMaximum": 3.44807767868042
+      },
+      "uniforms": {
+        "attractor": [
+          0,
+          0,
+          2.4879050254821777
+        ],
+        "direction": [
+          1.5,
+          0,
+          0
+        ],
+        "dt": 0.016666666666666666,
+        "time": 1.5,
+        "morph": 1,
+        "flow": 0.65,
+        "turbulence": 0.22,
+        "magnetic": 1.7,
+        "repulsion": 0.7,
+        "vortex": 0.75,
+        "shape": 1.1,
+        "damping": 1.25,
+        "accelerationLimit": 14,
+        "velocityLimit": 4,
+        "boundaryRadius": 7,
+        "activity": 1,
+        "motion": 1,
+        "proximity": 0.5,
+        "pulse": 0,
+        "radius": 2.8007079893842994,
+        "dragForce": 3,
+        "attractionForce": 3,
+        "expansionForce": 3,
+        "vortexForce": 1.4,
+        "turbulenceForce": 0.8,
+        "restorationWeight": 0.4,
+        "approach": 0,
+        "pulseAge": 10,
+        "pulseForce": 2,
+        "falloffPower": 1,
+        "globalRadius": 5.4458210904694715,
+        "globalStrength": 0.35,
+        "localStrength": 1,
+        "uniformField": 0,
+        "diagnosticPass": 0,
+        "diagnosticCount": 60000,
+        "textureSide": 245,
+        "boundary": true
+      }
+    },
+    {
+      "name": "far",
+      "position": [
+        0,
+        0,
+        -2.497454881668091
+      ],
+      "bounds": {
+        "min": [
+          -3.1015422344207764,
+          -1.9942151308059692,
+          -2.497454881668091
+        ],
+        "max": [
+          3.1013541221618652,
+          1.985253930091858,
+          2.4879050254821777
+        ],
+        "radius": 3.111897765982555
+      },
+      "radius": 2.8007079893842994,
+      "before": {
+        "status": "Measured 16x16 stratified GPU sample; population coverage and bounds are estimates",
+        "sampleCount": 256,
+        "population": 60000,
+        "sampledAt": 0,
+        "finite": true,
+        "bounds": {
+          "min": [
+            -2.861093044281006,
+            -1.7794584035873413,
+            -2.3886568546295166
+          ],
+          "max": [
+            2.8996543884277344,
+            1.8695461750030518,
+            2.3902273178100586
+          ],
+          "radius": 2.901659299659782
+        },
+        "center": [
+          0.019280672073364258,
+          0.045043885707855225,
+          0.0007852315902709961
+        ],
+        "dimensions": [
+          5.76074743270874,
+          3.649004578590393,
+          4.778884172439575
+        ],
+        "sphereRadius": 2.901659299659782,
+        "inside": 99,
+        "insidePercent": 38.671875,
+        "meaningful": 256,
+        "meaningfulPercent": 100,
+        "estimatedInsideCount": 23203,
+        "estimatedMeaningfulCount": 60000,
+        "interactionAverage": 1.1664030561805703,
+        "interactionMaximum": 5.594791412353516,
+        "restorationAverage": 0.0029960234554664567,
+        "restorationMaximum": 0.016634073108434677,
+        "ratio": 389.31706427477576,
+        "deformationAverage": 0.0002883558625370597,
+        "deformationMaximum": 0.0016009912360459566
+      },
+      "after": {
+        "status": "Measured 16x16 stratified GPU sample; population coverage and bounds are estimates",
+        "sampleCount": 256,
+        "population": 60000,
+        "sampledAt": 1500,
+        "finite": true,
+        "bounds": {
+          "min": [
+            -2.575868844985962,
+            -1.7609673738479614,
+            -2.8866007328033447
+          ],
+          "max": [
+            3.6011650562286377,
+            1.8920414447784424,
+            2.577956199645996
+          ],
+          "radius": 3.271788912704049
+        },
+        "center": [
+          0.5126481056213379,
+          0.06553703546524048,
+          -0.15432226657867432
+        ],
+        "dimensions": [
+          6.1770339012146,
+          3.653008818626404,
+          5.464556932449341
+        ],
+        "sphereRadius": 3.271788912704049,
+        "inside": 92,
+        "insidePercent": 35.9375,
+        "meaningful": 256,
+        "meaningfulPercent": 100,
+        "estimatedInsideCount": 21563,
+        "estimatedMeaningfulCount": 60000,
+        "interactionAverage": 1.2474953448399901,
+        "interactionMaximum": 4.97670316696167,
+        "restorationAverage": 0.36580586739000864,
+        "restorationMaximum": 1.47605299949646,
+        "ratio": 3.410266089335185,
+        "deformationAverage": 0.6172753729624674,
+        "deformationMaximum": 2.752650260925293
+      },
+      "uniforms": {
+        "attractor": [
+          0,
+          0,
+          -2.497454881668091
+        ],
+        "direction": [
+          1.5,
+          0,
+          0
+        ],
+        "dt": 0.016666666666666666,
+        "time": 1.5,
+        "morph": 1,
+        "flow": 0.65,
+        "turbulence": 0.22,
+        "magnetic": 1.7,
+        "repulsion": 0.7,
+        "vortex": 0.75,
+        "shape": 1.1,
+        "damping": 1.25,
+        "accelerationLimit": 14,
+        "velocityLimit": 4,
+        "boundaryRadius": 7,
+        "activity": 1,
+        "motion": 1,
+        "proximity": 0.5,
+        "pulse": 0,
+        "radius": 2.8007079893842994,
+        "dragForce": 3,
+        "attractionForce": 3,
+        "expansionForce": 3,
+        "vortexForce": 1.4,
+        "turbulenceForce": 0.8,
+        "restorationWeight": 0.4,
+        "approach": 0,
+        "pulseAge": 10,
+        "pulseForce": 2,
+        "falloffPower": 1,
+        "globalRadius": 5.4458210904694715,
+        "globalStrength": 0.35,
+        "localStrength": 1,
+        "uniformField": 0,
+        "diagnosticPass": 0,
+        "diagnosticCount": 60000,
+        "textureSide": 245,
+        "boundary": true
+      }
+    }
+  ],
+  "uniformField": {
+    "name": "uniform",
+    "position": [
+      0,
+      0,
+      0
+    ],
+    "bounds": {
+      "min": [
+        -3.1015422344207764,
+        -1.9942151308059692,
+        -2.497454881668091
+      ],
+      "max": [
+        3.1013541221618652,
+        1.985253930091858,
+        2.4879050254821777
+      ],
+      "radius": 3.111897765982555
+    },
+    "radius": 2.8007079893842994,
+    "before": {
+      "status": "Measured 16x16 stratified GPU sample; population coverage and bounds are estimates",
+      "sampleCount": 256,
+      "population": 60000,
+      "sampledAt": 0,
+      "finite": true,
+      "bounds": {
+        "min": [
+          -2.8610668182373047,
+          -1.7794523239135742,
+          -2.3891990184783936
+        ],
+        "max": [
+          2.8994860649108887,
+          1.8695292472839355,
+          2.3901517391204834
+        ],
+        "radius": 2.9015219810563977
+      },
+      "center": [
+        0.019209623336791992,
+        0.045038461685180664,
+        0.0004763603210449219
+      ],
+      "dimensions": [
+        5.760552883148193,
+        3.6489815711975098,
+        4.779350757598877
+      ],
+      "sphereRadius": 2.9015219810563977,
+      "inside": 249,
+      "insidePercent": 97.265625,
+      "meaningful": 256,
+      "meaningfulPercent": 100,
+      "estimatedInsideCount": 58359,
+      "estimatedMeaningfulCount": 60000,
+      "interactionAverage": 0.6000000238418579,
+      "interactionMaximum": 0.6000000238418579,
+      "restorationAverage": 0.0017316412086074706,
+      "restorationMaximum": 0.0017316470621153712,
+      "ratio": 346.4921144515603,
+      "deformationAverage": 0.00016665610746713355,
+      "deformationMaximum": 0.00016666948795318604
+    },
+    "after": {
+      "status": "Measured 16x16 stratified GPU sample; population coverage and bounds are estimates",
+      "sampleCount": 256,
+      "population": 60000,
+      "sampledAt": 1500,
+      "finite": true,
+      "bounds": {
+        "min": [
+          -2.508204936981201,
+          -1.7794523239135742,
+          -2.3891990184783936
+        ],
+        "max": [
+          3.252347946166992,
+          1.8695292472839355,
+          2.3901517391204834
+        ],
+        "radius": 2.9015219810563977
+      },
+      "center": [
+        0.3720715045928955,
+        0.045038461685180664,
+        0.0004763603210449219
+      ],
+      "dimensions": [
+        5.760552883148193,
+        3.6489815711975098,
+        4.779350757598877
+      ],
+      "sphereRadius": 2.9015219810563977,
+      "inside": 237,
+      "insidePercent": 92.578125,
+      "meaningful": 256,
+      "meaningfulPercent": 100,
+      "estimatedInsideCount": 55547,
+      "estimatedMeaningfulCount": 60000,
+      "interactionAverage": 0.6000000238418579,
+      "interactionMaximum": 0.6000000238418579,
+      "restorationAverage": 0.20856279094005004,
+      "restorationMaximum": 0.20856311917304993,
+      "ratio": 2.8768315821700137,
+      "deformationAverage": 0.35302783106453717,
+      "deformationMaximum": 0.35302865505218506
+    },
+    "uniforms": {
+      "attractor": [
+        0,
+        0,
+        0
+      ],
+      "direction": [
+        1.5,
+        0,
+        0
+      ],
+      "dt": 0.016666666666666666,
+      "time": 1.5,
+      "morph": 1,
+      "flow": 0,
+      "turbulence": 0,
+      "magnetic": 0,
+      "repulsion": 0,
+      "vortex": 0,
+      "shape": 1.1,
+      "damping": 1.25,
+      "accelerationLimit": 14,
+      "velocityLimit": 4,
+      "boundaryRadius": 7,
+      "activity": 1,
+      "motion": 1,
+      "proximity": 0.5,
+      "pulse": 0,
+      "radius": 2.8007079893842994,
+      "dragForce": 0,
+      "attractionForce": 3,
+      "expansionForce": 3,
+      "vortexForce": 0,
+      "turbulenceForce": 0,
+      "restorationWeight": 0.4,
+      "approach": 0,
+      "pulseAge": 10,
+      "pulseForce": 2,
+      "falloffPower": 1,
+      "globalRadius": 5.4458210904694715,
+      "globalStrength": 0,
+      "localStrength": 1,
+      "uniformField": 1,
+      "diagnosticPass": 0,
+      "diagnosticCount": 60000,
+      "textureSide": 245,
+      "boundary": true
+    }
+  },
+  "automatic": [
+    {
+      "variant": "legacy",
+      "min": [
+        -1.75529967839039,
+        -0.004480600357055662,
+        -2.49745488166809
+      ],
+      "max": [
+        1.7545749736978633,
+        -0.0008426380745866574,
+        -0.4696804903704346
+      ],
+      "normalizedMin": [
+        0.21688355780702878,
+        0.6297027117385579
+      ],
+      "normalizedMax": [
+        0.7829812998849512,
+        1
+      ],
+      "lateralCoverage": 0.5658444781788917,
+      "samples": [
+        {
+          "time": 1983.3333333333333,
+          "position": [
+            -1.3487506816315507,
+            -0.004480600356993438,
+            -2.497454881633406
+          ],
+          "radius": 3.6781916643456674,
+          "measurement": {
+            "status": "Measured 16x16 stratified GPU sample; population coverage and bounds are estimates",
+            "sampleCount": 256,
+            "population": 60000,
+            "sampledAt": 1983.3333333333333,
+            "finite": true,
+            "bounds": {
+              "min": [
+                -4.090959072113037,
+                -1.6497766971588135,
+                -1.6986757516860962
+              ],
+              "max": [
+                1.9314213991165161,
+                1.651521921157837,
+                2.5937905311584473
+              ],
+              "radius": 3.6979172759346377
+            },
+            "center": [
+              -1.0797688364982605,
+              0.0008726119995117188,
+              0.44755738973617554
+            ],
+            "dimensions": [
+              6.022380471229553,
+              3.3012986183166504,
+              4.2924662828445435
+            ],
+            "sphereRadius": 3.6979172759346377,
+            "inside": 179,
+            "insidePercent": 69.921875,
+            "meaningful": 256,
+            "meaningfulPercent": 100,
+            "estimatedInsideCount": 41953,
+            "estimatedMeaningfulCount": 60000,
+            "interactionAverage": 0.8997717359452508,
+            "interactionMaximum": 2.810696601867676,
+            "restorationAverage": 1.2403552039759234,
+            "restorationMaximum": 3.9963579177856445,
+            "ratio": 0.7254145691984507,
+            "deformationAverage": 1.403224061941728,
+            "deformationMaximum": 4.651955604553223
+          }
+        },
+        {
+          "time": 3983.3333333333335,
+          "position": [
+            -1.7003112796208513,
+            -0.004480600357055662,
+            -2.4246058151497105
+          ],
+          "radius": 3.206512296686863,
+          "measurement": {
+            "status": "Measured 16x16 stratified GPU sample; population coverage and bounds are estimates",
+            "sampleCount": 256,
+            "population": 60000,
+            "sampledAt": 3983.3333333333335,
+            "finite": true,
+            "bounds": {
+              "min": [
+                -2.596773624420166,
+                -1.329663872718811,
+                -0.937434196472168
+              ],
+              "max": [
+                1.3436675071716309,
+                1.0735294818878174,
+                2.40297532081604
+              ],
+              "radius": 2.5661331363477373
+            },
+            "center": [
+              -0.6265530586242676,
+              -0.12806719541549683,
+              0.732770562171936
+            ],
+            "dimensions": [
+              3.940441131591797,
+              2.4031933546066284,
+              3.340409517288208
+            ],
+            "sphereRadius": 2.5661331363477373,
+            "inside": 130,
+            "insidePercent": 50.78125,
+            "meaningful": 256,
+            "meaningfulPercent": 100,
+            "estimatedInsideCount": 30469,
+            "estimatedMeaningfulCount": 60000,
+            "interactionAverage": 0.9648415385745466,
+            "interactionMaximum": 2.863662004470825,
+            "restorationAverage": 0.8177755312935915,
+            "restorationMaximum": 2.0151138305664062,
+            "ratio": 1.1798366442296457,
+            "deformationAverage": 1.0460958860639948,
+            "deformationMaximum": 2.5879874229431152
+          }
+        },
+        {
+          "time": 5983.333333333333,
+          "position": [
+            -0.614483741575086,
+            -0.004480600357055662,
+            -1.3979795282342775
+          ],
+          "radius": 3.751429713402075,
+          "measurement": {
+            "status": "Measured 16x16 stratified GPU sample; population coverage and bounds are estimates",
+            "sampleCount": 256,
+            "population": 60000,
+            "sampledAt": 5983.333333333333,
+            "finite": true,
+            "bounds": {
+              "min": [
+                -1.049039602279663,
+                -1.2406755685806274,
+                -0.1615426242351532
+              ],
+              "max": [
+                2.021627426147461,
+                0.6886523962020874,
+                2.1565988063812256
+              ],
+              "radius": 1.8102171691320337
+            },
+            "center": [
+              0.4862939119338989,
+              -0.27601158618927,
+              0.9975280910730362
+            ],
+            "dimensions": [
+              3.070667028427124,
+              1.9293279647827148,
+              2.318141430616379
+            ],
+            "sphereRadius": 1.8102171691320337,
+            "inside": 255,
+            "insidePercent": 99.609375,
+            "meaningful": 256,
+            "meaningfulPercent": 100,
+            "estimatedInsideCount": 59766,
+            "estimatedMeaningfulCount": 60000,
+            "interactionAverage": 2.0176696651615202,
+            "interactionMaximum": 3.8678488731384277,
+            "restorationAverage": 1.0694397105835378,
+            "restorationMaximum": 2.637601852416992,
+            "ratio": 1.8866605056778587,
+            "deformationAverage": 1.415527228891733,
+            "deformationMaximum": 3.445964813232422
+          }
+        },
+        {
+          "time": 7983.333333333333,
+          "position": [
+            0.9821087332286791,
+            -0.004480600357055662,
+            -0.7363480245867452
+          ],
+          "radius": 3.799623270592835,
+          "measurement": {
+            "status": "Measured 16x16 stratified GPU sample; population coverage and bounds are estimates",
+            "sampleCount": 256,
+            "population": 60000,
+            "sampledAt": 7983.333333333333,
+            "finite": true,
+            "bounds": {
+              "min": [
+                0.3342893421649933,
+                -1.295042634010315,
+                -0.07285287976264954
+              ],
+              "max": [
+                3.4701340198516846,
+                1.342827558517456,
+                2.11173677444458
+              ],
+              "radius": 2.067201644652682
+            },
+            "center": [
+              1.902211681008339,
+              0.023892462253570557,
+              1.0194419473409653
+            ],
+            "dimensions": [
+              3.1358446776866913,
+              2.637870192527771,
+              2.1845896542072296
+            ],
+            "sphereRadius": 2.067201644652682,
+            "inside": 256,
+            "insidePercent": 100,
+            "meaningful": 256,
+            "meaningfulPercent": 100,
+            "estimatedInsideCount": 60000,
+            "estimatedMeaningfulCount": 60000,
+            "interactionAverage": 2.1961679502855986,
+            "interactionMaximum": 4.466325759887695,
+            "restorationAverage": 1.964175775879994,
+            "restorationMaximum": 3.6957781314849854,
+            "ratio": 1.1181117175226678,
+            "deformationAverage": 2.497992188902572,
+            "deformationMaximum": 4.830986022949219
+          }
+        },
+        {
+          "time": 9983.333333333334,
+          "position": [
+            1.7529944919588338,
+            -0.004480600357055662,
+            -0.7468715682161339
+          ],
+          "radius": 3.202019184601581,
+          "measurement": {
+            "status": "Measured 16x16 stratified GPU sample; population coverage and bounds are estimates",
+            "sampleCount": 256,
+            "population": 60000,
+            "sampledAt": 9983.333333333334,
+            "finite": true,
+            "bounds": {
+              "min": [
+                -0.2559332251548767,
+                -1.2578232288360596,
+                -1.074228048324585
+              ],
+              "max": [
+                3.7189340591430664,
+                1.9966912269592285,
+                2.2004213333129883
+              ],
+              "radius": 2.6560025552699216
+            },
+            "center": [
+              1.7315004169940948,
+              0.3694339990615845,
+              0.5630966424942017
+            ],
+            "dimensions": [
+              3.974867284297943,
+              3.254514455795288,
+              3.2746493816375732
+            ],
+            "sphereRadius": 2.6560025552699216,
+            "inside": 255,
+            "insidePercent": 99.609375,
+            "meaningful": 256,
+            "meaningfulPercent": 100,
+            "estimatedInsideCount": 59766,
+            "estimatedMeaningfulCount": 60000,
+            "interactionAverage": 0.8159313818905503,
+            "interactionMaximum": 2.6484334468841553,
+            "restorationAverage": 1.9666168121621013,
+            "restorationMaximum": 4.181187152862549,
+            "ratio": 0.41489088105247823,
+            "deformationAverage": 2.17559209628962,
+            "deformationMaximum": 4.409080505371094
+          }
+        },
+        {
+          "time": 11983.333333333334,
+          "position": [
+            1.0532418187326578,
+            -0.004480600357055662,
+            -1.4431109270166094
+          ],
+          "radius": 3.568957186993974,
+          "measurement": {
+            "status": "Measured 16x16 stratified GPU sample; population coverage and bounds are estimates",
+            "sampleCount": 256,
+            "population": 60000,
+            "sampledAt": 11983.333333333334,
+            "finite": true,
+            "bounds": {
+              "min": [
+                -2.8910677433013916,
+                -2.0849051475524902,
+                -4.094715595245361
+              ],
+              "max": [
+                3.2551417350769043,
+                2.3672451972961426,
+                2.6618900299072266
+              ],
+              "radius": 3.6566508832145552
+            },
+            "center": [
+              0.18203699588775635,
+              0.14117002487182617,
+              -0.7164127826690674
+            ],
+            "dimensions": [
+              6.146209478378296,
+              4.452150344848633,
+              6.756605625152588
+            ],
+            "sphereRadius": 3.6566508832145552,
+            "inside": 199,
+            "insidePercent": 77.734375,
+            "meaningful": 256,
+            "meaningfulPercent": 100,
+            "estimatedInsideCount": 46641,
+            "estimatedMeaningfulCount": 60000,
+            "interactionAverage": 2.123733380693011,
+            "interactionMaximum": 9.128547668457031,
+            "restorationAverage": 0.9609134249039926,
+            "restorationMaximum": 2.435987949371338,
+            "ratio": 2.2101193777214623,
+            "deformationAverage": 1.05439287959598,
+            "deformationMaximum": 2.5016956329345703
+          }
+        },
+        {
+          "time": 13983.333333333334,
+          "position": [
+            -0.5372706575273354,
+            -0.004480600357055662,
+            -2.4693010037302088
+          ],
+          "radius": 3.8858451031040357,
+          "measurement": {
+            "status": "Measured 16x16 stratified GPU sample; population coverage and bounds are estimates",
+            "sampleCount": 256,
+            "population": 60000,
+            "sampledAt": 13983.333333333334,
+            "finite": true,
+            "bounds": {
+              "min": [
+                -4.806623458862305,
+                -2.6920316219329834,
+                -5.291024208068848
+              ],
+              "max": [
+                3.0455949306488037,
+                2.919830083847046,
+                2.7738537788391113
+              ],
+              "radius": 4.8025562638929635
+            },
+            "center": [
+              -0.8805142641067505,
+              0.11389923095703125,
+              -1.2585852146148682
+            ],
+            "dimensions": [
+              7.852218389511108,
+              5.611861705780029,
+              8.064877986907959
+            ],
+            "sphereRadius": 4.8025562638929635,
+            "inside": 171,
+            "insidePercent": 66.796875,
+            "meaningful": 256,
+            "meaningfulPercent": 100,
+            "estimatedInsideCount": 40078,
+            "estimatedMeaningfulCount": 60000,
+            "interactionAverage": 2.154717797646299,
+            "interactionMaximum": 8.863237380981445,
+            "restorationAverage": 1.966432846733369,
+            "restorationMaximum": 5.0386881828308105,
+            "ratio": 1.0957494944338975,
+            "deformationAverage": 2.676481984439306,
+            "deformationMaximum": 6.4099578857421875
+          }
+        },
+        {
+          "time": 15983.333333333334,
+          "position": [
+            -1.6676546814770818,
+            -0.004480600357055662,
+            -2.4974548816677
+          ],
+          "radius": 3.490127486753849,
+          "measurement": {
+            "status": "Measured 16x16 stratified GPU sample; population coverage and bounds are estimates",
+            "sampleCount": 256,
+            "population": 60000,
+            "sampledAt": 15983.333333333334,
+            "finite": true,
+            "bounds": {
+              "min": [
+                -5.215432167053223,
+                -2.81003999710083,
+                -5.2222113609313965
+              ],
+              "max": [
+                3.0669548511505127,
+                3.047234535217285,
+                2.728837728500366
+              ],
+              "radius": 4.987872117880137
+            },
+            "center": [
+              -1.074238657951355,
+              0.11859726905822754,
+              -1.2466868162155151
+            ],
+            "dimensions": [
+              8.282387018203735,
+              5.857274532318115,
+              7.951049089431763
+            ],
+            "sphereRadius": 4.987872117880137,
+            "inside": 159,
+            "insidePercent": 62.109375,
+            "meaningful": 256,
+            "meaningfulPercent": 100,
+            "estimatedInsideCount": 37266,
+            "estimatedMeaningfulCount": 60000,
+            "interactionAverage": 1.0519278727588244,
+            "interactionMaximum": 3.0217862129211426,
+            "restorationAverage": 2.378861890960252,
+            "restorationMaximum": 5.712498188018799,
+            "ratio": 0.4421979589299331,
+            "deformationAverage": 2.8460001162893604,
+            "deformationMaximum": 6.733758449554443
+          }
+        },
+        {
+          "time": 17983.333333333332,
+          "position": [
+            -1.409538576095185,
+            -0.004480600357055662,
+            -2.49745488166809
+          ],
+          "radius": 3.2716124626855065,
+          "measurement": {
+            "status": "Measured 16x16 stratified GPU sample; population coverage and bounds are estimates",
+            "sampleCount": 256,
+            "population": 60000,
+            "sampledAt": 17983.333333333332,
+            "finite": true,
+            "bounds": {
+              "min": [
+                -3.8377068042755127,
+                -2.22826886177063,
+                -3.621860980987549
+              ],
+              "max": [
+                3.10080885887146,
+                2.4107048511505127,
+                2.54097580909729
+              ],
+              "radius": 3.8183858316931585
+            },
+            "center": [
+              -0.36844897270202637,
+              0.0912179946899414,
+              -0.5404425859451294
+            ],
+            "dimensions": [
+              6.938515663146973,
+              4.638973712921143,
+              6.162836790084839
+            ],
+            "sphereRadius": 3.8183858316931585,
+            "inside": 141,
+            "insidePercent": 55.078125,
+            "meaningful": 256,
+            "meaningfulPercent": 100,
+            "estimatedInsideCount": 33047,
+            "estimatedMeaningfulCount": 60000,
+            "interactionAverage": 0.9745637167943642,
+            "interactionMaximum": 5.603682041168213,
+            "restorationAverage": 0.7755203798296861,
+            "restorationMaximum": 1.6569596529006958,
+            "ratio": 1.256657777334479,
+            "deformationAverage": 1.093789764563553,
+            "deformationMaximum": 2.436008930206299
+          }
+        },
+        {
+          "time": 19983.333333333332,
+          "position": [
+            0.04648833296899158,
+            -0.004480600357055662,
+            -2.49745488166809
+          ],
+          "radius": 3.8398221381651108,
+          "measurement": {
+            "status": "Measured 16x16 stratified GPU sample; population coverage and bounds are estimates",
+            "sampleCount": 256,
+            "population": 60000,
+            "sampledAt": 19983.333333333332,
+            "finite": true,
+            "bounds": {
+              "min": [
+                -2.607938051223755,
+                -1.7289518117904663,
+                -1.4181042909622192
+              ],
+              "max": [
+                3.180853843688965,
+                1.782062292098999,
+                2.408618927001953
+              ],
+              "radius": 3.116728714582952
+            },
+            "center": [
+              0.286457896232605,
+              0.026555240154266357,
+              0.49525731801986694
+            ],
+            "dimensions": [
+              5.78879189491272,
+              3.5110141038894653,
+              3.8267232179641724
+            ],
+            "sphereRadius": 3.116728714582952,
+            "inside": 176,
+            "insidePercent": 68.75,
+            "meaningful": 256,
+            "meaningfulPercent": 100,
+            "estimatedInsideCount": 41250,
+            "estimatedMeaningfulCount": 60000,
+            "interactionAverage": 1.2033762980718166,
+            "interactionMaximum": 2.7015812397003174,
+            "restorationAverage": 0.9319151116651483,
+            "restorationMaximum": 3.2617719173431396,
+            "ratio": 1.291293898992174,
+            "deformationAverage": 1.1583719291957095,
+            "deformationMaximum": 4.666334629058838
+          }
+        }
+      ]
+    },
+    {
+      "variant": "calibrated",
+      "min": [
+        -3.097990528991883,
+        -0.004480600357055662,
+        -2.495807617974052
+      ],
+      "max": [
+        3.0969970202902517,
+        -0.0008426380745866574,
+        2.4863981351541886
+      ],
+      "normalizedMin": [
+        0.00021979528020893424,
+        0.00005408192716183502
+      ],
+      "normalizedMax": [
+        0.9995284522912229,
+        1
+      ],
+      "lateralCoverage": 0.9987249815496089,
+      "samples": [
+        {
+          "time": 1983.3333333333333,
+          "position": [
+            -2.3911298880042087,
+            -0.004480600356993438,
+            -1.9717629083711112
+          ],
+          "radius": 4.386310675412605,
+          "measurement": {
+            "status": "Measured 16x16 stratified GPU sample; population coverage and bounds are estimates",
+            "sampleCount": 256,
+            "population": 60000,
+            "sampledAt": 1983.3333333333333,
+            "finite": true,
+            "bounds": {
+              "min": [
+                -5.967743873596191,
+                -2.247236490249634,
+                -1.185805082321167
+              ],
+              "max": [
+                1.0160471200942993,
+                1.5689789056777954,
+                2.9410240650177
+              ],
+              "radius": 4.13569617074655
+            },
+            "center": [
+              -2.475848376750946,
+              -0.3391287922859192,
+              0.8776094913482666
+            ],
+            "dimensions": [
+              6.983790993690491,
+              3.816215395927429,
+              4.126829147338867
+            ],
+            "sphereRadius": 4.13569617074655,
+            "inside": 237,
+            "insidePercent": 92.578125,
+            "meaningful": 256,
+            "meaningfulPercent": 100,
+            "estimatedInsideCount": 55547,
+            "estimatedMeaningfulCount": 60000,
+            "interactionAverage": 1.555555829545483,
+            "interactionMaximum": 6.73027229309082,
+            "restorationAverage": 1.64769730088301,
+            "restorationMaximum": 3.8285160064697266,
+            "ratio": 0.9440786415756414,
+            "deformationAverage": 2.563755237031728,
+            "deformationMaximum": 5.959528923034668
+          }
+        },
+        {
+          "time": 3983.3333333333335,
+          "position": [
+            -2.996280528872008,
+            -0.004480600357055662,
+            -0.49826171873736025
+          ],
+          "radius": 3.5382480653540687,
+          "measurement": {
+            "status": "Measured 16x16 stratified GPU sample; population coverage and bounds are estimates",
+            "sampleCount": 256,
+            "population": 60000,
+            "sampledAt": 3983.3333333333335,
+            "finite": true,
+            "bounds": {
+              "min": [
+                -3.238142967224121,
+                -1.3256288766860962,
+                0.590555727481842
+              ],
+              "max": [
+                0.5410483479499817,
+                0.7310013175010681,
+                2.994325637817383
+              ],
+              "radius": 2.336082608345262
+            },
+            "center": [
+              -1.3485473096370697,
+              -0.29731377959251404,
+              1.7924406826496124
+            ],
+            "dimensions": [
+              3.779191315174103,
+              2.0566301941871643,
+              2.4037699103355408
+            ],
+            "sphereRadius": 2.336082608345262,
+            "inside": 212,
+            "insidePercent": 82.8125,
+            "meaningful": 256,
+            "meaningfulPercent": 100,
+            "estimatedInsideCount": 49688,
+            "estimatedMeaningfulCount": 60000,
+            "interactionAverage": 2.3095142985112034,
+            "interactionMaximum": 6.850162029266357,
+            "restorationAverage": 1.5737831296864897,
+            "restorationMaximum": 3.310047149658203,
+            "ratio": 1.4674920927455088,
+            "deformationAverage": 2.1147204634035006,
+            "deformationMaximum": 4.967803478240967
+          }
+        },
+        {
+          "time": 5983.333333333333,
+          "position": [
+            -1.072420884778201,
+            -0.004480600357055662,
+            1.2342165732465205
+          ],
+          "radius": 4.509636100229162,
+          "measurement": {
+            "status": "Measured 16x16 stratified GPU sample; population coverage and bounds are estimates",
+            "sampleCount": 256,
+            "population": 60000,
+            "sampledAt": 5983.333333333333,
+            "finite": true,
+            "bounds": {
+              "min": [
+                0.8474593162536621,
+                -1.1774848699569702,
+                0.1745123565196991
+              ],
+              "max": [
+                2.656755208969116,
+                0.40361595153808594,
+                3.675617218017578
+              ],
+              "radius": 2.0434220853090945
+            },
+            "center": [
+              1.7521072626113892,
+              -0.38693445920944214,
+              1.9250647872686386
+            ],
+            "dimensions": [
+              1.809295892715454,
+              1.5811008214950562,
+              3.501104861497879
+            ],
+            "sphereRadius": 2.0434220853090945,
+            "inside": 256,
+            "insidePercent": 100,
+            "meaningful": 256,
+            "meaningfulPercent": 100,
+            "estimatedInsideCount": 60000,
+            "estimatedMeaningfulCount": 60000,
+            "interactionAverage": 1.74540906958282,
+            "interactionMaximum": 2.833085536956787,
+            "restorationAverage": 1.4242115570232272,
+            "restorationMaximum": 2.524688243865967,
+            "ratio": 1.2255265455301696,
+            "deformationAverage": 2.9701456972397864,
+            "deformationMaximum": 5.845911979675293
+          }
+        },
+        {
+          "time": 7983.333333333333,
+          "position": [
+            1.7454821392965254,
+            -0.004480600357055662,
+            2.3470122452300375
+          ],
+          "radius": 4.5644004826102105,
+          "measurement": {
+            "status": "Measured 16x16 stratified GPU sample; population coverage and bounds are estimates",
+            "sampleCount": 256,
+            "population": 60000,
+            "sampledAt": 7983.333333333333,
+            "finite": true,
+            "bounds": {
+              "min": [
+                3.0053112506866455,
+                -0.9985513091087341,
+                0.2406030148267746
+              ],
+              "max": [
+                4.7820210456848145,
+                1.3630903959274292,
+                4.568086624145508
+              ],
+              "radius": 2.3711787953431385
+            },
+            "center": [
+              3.89366614818573,
+              0.18226954340934753,
+              2.404344819486141
+            ],
+            "dimensions": [
+              1.776709794998169,
+              2.3616417050361633,
+              4.327483609318733
+            ],
+            "sphereRadius": 2.3711787953431385,
+            "inside": 256,
+            "insidePercent": 100,
+            "meaningful": 256,
+            "meaningfulPercent": 100,
+            "estimatedInsideCount": 60000,
+            "estimatedMeaningfulCount": 60000,
+            "interactionAverage": 3.526587348431349,
+            "interactionMaximum": 4.3346357345581055,
+            "restorationAverage": 2.5660752588883042,
+            "restorationMaximum": 4.037348747253418,
+            "ratio": 1.3743117378245426,
+            "deformationAverage": 4.909195898100734,
+            "deformationMaximum": 8.193052291870117
+          }
+        },
+        {
+          "time": 9983.333333333334,
+          "position": [
+            3.094929332773578,
+            -0.004480600357055662,
+            2.3233151988322938
+          ],
+          "radius": 3.5387579037613857,
+          "measurement": {
+            "status": "Measured 16x16 stratified GPU sample; population coverage and bounds are estimates",
+            "sampleCount": 256,
+            "population": 60000,
+            "sampledAt": 9983.333333333334,
+            "finite": true,
+            "bounds": {
+              "min": [
+                2.8400990962982178,
+                -1.2213261127471924,
+                -0.1481979936361313
+              ],
+              "max": [
+                5.6382269859313965,
+                1.6474534273147583,
+                4.102222919464111
+              ],
+              "radius": 2.4396709550592104
+            },
+            "center": [
+              4.239163041114807,
+              0.21306365728378296,
+              1.97701246291399
+            ],
+            "dimensions": [
+              2.7981278896331787,
+              2.8687795400619507,
+              4.250420913100243
+            ],
+            "sphereRadius": 2.4396709550592104,
+            "inside": 256,
+            "insidePercent": 100,
+            "meaningful": 256,
+            "meaningfulPercent": 100,
+            "estimatedInsideCount": 60000,
+            "estimatedMeaningfulCount": 60000,
+            "interactionAverage": 1.4105425952002406,
+            "interactionMaximum": 4.1479620933532715,
+            "restorationAverage": 3.9471238050609827,
+            "restorationMaximum": 5.893956184387207,
+            "ratio": 0.3573596028053769,
+            "deformationAverage": 4.816211072728038,
+            "deformationMaximum": 7.028784275054932
+          }
+        },
+        {
+          "time": 11983.333333333334,
+          "position": [
+            1.8472321900898299,
+            -0.004480600357055662,
+            1.1435004554896102
+          ],
+          "radius": 4.190904382719317,
+          "measurement": {
+            "status": "Measured 16x16 stratified GPU sample; population coverage and bounds are estimates",
+            "sampleCount": 256,
+            "population": 60000,
+            "sampledAt": 11983.333333333334,
+            "finite": true,
+            "bounds": {
+              "min": [
+                -2.3607370853424072,
+                -2.583555221557617,
+                -3.112708806991577
+              ],
+              "max": [
+                3.825281858444214,
+                2.8936047554016113,
+                1.734811782836914
+              ],
+              "radius": 3.569549958337268
+            },
+            "center": [
+              0.7322723865509033,
+              0.15502476692199707,
+              -0.6889485120773315
+            ],
+            "dimensions": [
+              6.186018943786621,
+              5.4771599769592285,
+              4.847520589828491
+            ],
+            "sphereRadius": 3.569549958337268,
+            "inside": 220,
+            "insidePercent": 85.9375,
+            "meaningful": 256,
+            "meaningfulPercent": 100,
+            "estimatedInsideCount": 51563,
+            "estimatedMeaningfulCount": 60000,
+            "interactionAverage": 4.0811732448637486,
+            "interactionMaximum": 5.407861232757568,
+            "restorationAverage": 1.0745827297214419,
+            "restorationMaximum": 2.5335991382598877,
+            "ratio": 3.7979144201598034,
+            "deformationAverage": 1.574556609382853,
+            "deformationMaximum": 3.1833255290985107
+          }
+        },
+        {
+          "time": 13983.333333333334,
+          "position": [
+            -0.959802456834268,
+            -0.004480600357055662,
+            -0.5876510152077511
+          ],
+          "radius": 4.620097838696303,
+          "measurement": {
+            "status": "Measured 16x16 stratified GPU sample; population coverage and bounds are estimates",
+            "sampleCount": 256,
+            "population": 60000,
+            "sampledAt": 13983.333333333334,
+            "finite": true,
+            "bounds": {
+              "min": [
+                -6.251379489898682,
+                -3.9183146953582764,
+                -5.783612251281738
+              ],
+              "max": [
+                3.705852508544922,
+                4.544468402862549,
+                1.7164592742919922
+              ],
+              "radius": 6.128801807280793
+            },
+            "center": [
+              -1.2727634906768799,
+              0.31307685375213623,
+              -2.033576488494873
+            ],
+            "dimensions": [
+              9.957231998443604,
+              8.462783098220825,
+              7.5000715255737305
+            ],
+            "sphereRadius": 6.128801807280793,
+            "inside": 129,
+            "insidePercent": 50.390625,
+            "meaningful": 256,
+            "meaningfulPercent": 100,
+            "estimatedInsideCount": 30234,
+            "estimatedMeaningfulCount": 60000,
+            "interactionAverage": 2.5889889104291797,
+            "interactionMaximum": 4.457525253295898,
+            "restorationAverage": 1.9650241639465094,
+            "restorationMaximum": 3.2941548824310303,
+            "ratio": 1.3175354063990308,
+            "deformationAverage": 4.243208093568683,
+            "deformationMaximum": 6.8402581214904785
+          }
+        },
+        {
+          "time": 15983.333333333334,
+          "position": [
+            -2.949493313285682,
+            -0.004480600357055662,
+            -2.0230906116140894
+          ],
+          "radius": 4.035618483752448,
+          "measurement": {
+            "status": "Measured 16x16 stratified GPU sample; population coverage and bounds are estimates",
+            "sampleCount": 256,
+            "population": 60000,
+            "sampledAt": 15983.333333333334,
+            "finite": true,
+            "bounds": {
+              "min": [
+                -6.7978386878967285,
+                -4.081860065460205,
+                -6.744971752166748
+              ],
+              "max": [
+                3.6948392391204834,
+                5.029200077056885,
+                1.954546332359314
+              ],
+              "radius": 6.536719568195536
+            },
+            "center": [
+              -1.5514997243881226,
+              0.47367000579833984,
+              -2.395212709903717
+            ],
+            "dimensions": [
+              10.492677927017212,
+              9.11106014251709,
+              8.699518084526062
+            ],
+            "sphereRadius": 6.536719568195536,
+            "inside": 143,
+            "insidePercent": 55.859375,
+            "meaningful": 256,
+            "meaningfulPercent": 100,
+            "estimatedInsideCount": 33516,
+            "estimatedMeaningfulCount": 60000,
+            "interactionAverage": 1.6082235909998417,
+            "interactionMaximum": 3.8700613975524902,
+            "restorationAverage": 3.308310077060014,
+            "restorationMaximum": 5.483168601989746,
+            "ratio": 0.48611634143708105,
+            "deformationAverage": 4.833926054649055,
+            "deformationMaximum": 7.521522045135498
+          }
+        },
+        {
+          "time": 17983.333333333332,
+          "position": [
+            -2.4766366110733533,
+            -0.004480600357055662,
+            -2.4860077664041036
+          ],
+          "radius": 3.67985249479245,
+          "measurement": {
+            "status": "Measured 16x16 stratified GPU sample; population coverage and bounds are estimates",
+            "sampleCount": 256,
+            "population": 60000,
+            "sampledAt": 17983.333333333332,
+            "finite": true,
+            "bounds": {
+              "min": [
+                -4.351804256439209,
+                -2.7036566734313965,
+                -4.538083553314209
+              ],
+              "max": [
+                3.5895421504974365,
+                3.5297389030456543,
+                2.3342864513397217
+              ],
+              "radius": 4.612961170801448
+            },
+            "center": [
+              -0.38113105297088623,
+              0.4130411148071289,
+              -1.1018985509872437
+            ],
+            "dimensions": [
+              7.9413464069366455,
+              6.233395576477051,
+              6.872370004653931
+            ],
+            "sphereRadius": 4.612961170801448,
+            "inside": 175,
+            "insidePercent": 68.359375,
+            "meaningful": 256,
+            "meaningfulPercent": 100,
+            "estimatedInsideCount": 41016,
+            "estimatedMeaningfulCount": 60000,
+            "interactionAverage": 2.1615159208886325,
+            "interactionMaximum": 11.898906707763672,
+            "restorationAverage": 1.1632562198210508,
+            "restorationMaximum": 2.0336382389068604,
+            "ratio": 1.8581597794690055,
+            "deformationAverage": 2.0624081327114254,
+            "deformationMaximum": 3.5984785556793213
+          }
+        },
+        {
+          "time": 19983.333333333332,
+          "position": [
+            0.09425984269617231,
+            -0.004480600357055662,
+            -1.7260077416157111
+          ],
+          "radius": 4.606159011513537,
+          "measurement": {
+            "status": "Measured 16x16 stratified GPU sample; population coverage and bounds are estimates",
+            "sampleCount": 256,
+            "population": 60000,
+            "sampledAt": 19983.333333333332,
+            "finite": true,
+            "bounds": {
+              "min": [
+                -2.1592702865600586,
+                -2.0278122425079346,
+                -1.4811869859695435
+              ],
+              "max": [
+                4.194413185119629,
+                2.3063628673553467,
+                2.1145923137664795
+              ],
+              "radius": 3.3888322780268547
+            },
+            "center": [
+              1.0175714492797852,
+              0.13927531242370605,
+              0.316702663898468
+            ],
+            "dimensions": [
+              6.3536834716796875,
+              4.334175109863281,
+              3.595779299736023
+            ],
+            "sphereRadius": 3.3888322780268547,
+            "inside": 250,
+            "insidePercent": 97.65625,
+            "meaningful": 256,
+            "meaningfulPercent": 100,
+            "estimatedInsideCount": 58594,
+            "estimatedMeaningfulCount": 60000,
+            "interactionAverage": 2.499480227706954,
+            "interactionMaximum": 6.061956405639648,
+            "restorationAverage": 1.1922485538525507,
+            "restorationMaximum": 2.6159205436706543,
+            "ratio": 2.0964422390199626,
+            "deformationAverage": 2.252863959874958,
+            "deformationMaximum": 5.939171314239502
+          }
+        }
+      ]
+    }
+  ]
+}

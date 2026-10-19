@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.pio/
+.reference/
+.tools/
+test-results/
+playwright-report/
+*.log
+.DS_Store

@@ -1,0 +1,32 @@
+import {test,expect} from '@playwright/test';
+import {defaultConfig,exportConfig} from '../../web/src/particles/config';
+test('hardware-free adapter sequence reaches GPU forces and deforms actual particle positions',async({page},testInfo)=>{
+ test.setTimeout(45000);const errors:string[]=[];page.on('pageerror',e=>errors.push(e.message));page.on('console',m=>{if(m.type()==='error')errors.push(m.text());});
+ await page.addInitScript(text=>localStorage.setItem('mr60-particles-config',text),exportConfig({...defaultConfig,count:10000,quality:'low',adaptive:false,rotation:0}));
+ await page.goto('/?interactionProbe=1#particles');const canvas=page.locator('canvas[data-particle-canvas]');
+ await expect.poll(async()=>Number(await canvas.getAttribute('data-frames')),{timeout:15000}).toBeGreaterThan(0);
+ await page.getByLabel('Show influence field',{exact:true}).check();
+ await page.getByRole('button',{name:'Test interaction',exact:true}).click();
+ const samples=await canvas.evaluate(async node=>{
+  const samples:{testTravel?:{min:number[];max:number[]};state:string;world:number[];energy:number;uniforms:Record<string,number|number[]>;formationBounds:{min:number[];max:number[];radius:number};globalRadius:number;radius:number;probe?:{x:number;radius:number;finite:boolean}}[]=[];
+  const start=performance.now();while(performance.now()-start<17500){if((node as HTMLElement).dataset.interaction)samples.push(JSON.parse((node as HTMLElement).dataset.interaction!));await new Promise(r=>setTimeout(r,250));}return samples;
+ });
+ await testInfo.attach('gpu-interaction-samples',{body:JSON.stringify(samples,null,2),contentType:'application/json'});
+ expect(samples.some(s=>(s.testTravel?.min[0]??0)<s.formationBounds.min[0]*.85)).toBe(true);
+ expect(samples.some(s=>(s.testTravel?.max[0]??0)>s.formationBounds.max[0]*.85)).toBe(true);
+ expect(samples.every(s=>s.globalRadius>s.formationBounds.radius)).toBe(true);
+ expect(samples.some(s=>Number(s.uniforms.globalStrength)>.3)).toBe(true);
+ expect(Math.max(...samples.map(s=>s.radius))-Math.min(...samples.map(s=>s.radius))).toBeGreaterThan(.5);
+ expect(samples.some(s=>s.world?.[0]<-1.6)).toBe(true);expect(samples.some(s=>s.world?.[0]>1.6)).toBe(true);
+ expect(samples.some(s=>Number(s.uniforms.approach)>.3)).toBe(true);expect(samples.some(s=>Number(s.uniforms.approach)<-.3)).toBe(true);
+ expect(samples.some(s=>s.energy>.6)).toBe(true);expect(samples.some(s=>Number(s.uniforms.pulse)>.3)).toBe(true);
+ const actual=samples.flatMap(s=>s.probe?[s.probe]:[]);expect(actual.length).toBeGreaterThan(10);expect(actual.every(s=>s.finite)).toBe(true);
+ expect(Math.max(...actual.map(s=>s.x))-Math.min(...actual.map(s=>s.x))).toBeGreaterThan(.3);
+ expect(Math.max(...actual.map(s=>s.radius))-Math.min(...actual.map(s=>s.radius))).toBeGreaterThan(.3);
+ expect(samples.at(-1)?.energy).toBeLessThan(.05);
+ await page.screenshot({path:'test-results/phase3-interaction.png',fullPage:true});
+ await page.getByLabel('Interaction preset',{exact:true}).selectOption('Dramatic');await expect(page.getByLabel('Movement amplification',{exact:true})).toHaveValue('7');
+ await page.getByRole('button',{name:'Save custom response preset',exact:true}).click();
+ await expect(page.getByLabel('Load saved particle preset')).toContainText('Custom response');
+ expect(errors).toEqual([]);
+});
